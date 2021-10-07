@@ -1,4 +1,5 @@
 module.exports = {
+  mode: "jit",
   purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
   darkMode: false, // or 'media' or 'class'
   theme: {
@@ -18,8 +19,7 @@ module.exports = {
         sand: "#e1a56f",
       },
       backgroundImage: {
-        "hero-image": "url('/images/hero-bg.jpg')",
-        "cactus-image": "url('/images/hero-bg.jpg')",
+        "hero-image": "url('/images/desert.jpg')",
       },
     },
   },

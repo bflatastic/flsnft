@@ -6,7 +6,7 @@ import { Twitter } from "@icons-pack/react-simple-icons";
 function Header() {
   return (
     <div className="navbar">
-      <div className="max-w-6xl mx-auto p-4">
+      <div className="max-w-6xl mx-auto p-4 lg:px-10">
         <div className="flex justify-between">
           <div className="flex space-x-8">
             {/* Left Nav */}

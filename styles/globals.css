@@ -53,6 +53,10 @@ html {
     @apply bg-transparent inline-flex justify-center items-center cursor-pointer border border-white box-border hover:bg-white hover:text-btnmain transition-colors content-center text-sm whitespace-nowrap h-11 w-11 rounded-full text-center;
   }
 
+  .btn-social-alt {
+    @apply bg-white inline-flex justify-center items-center cursor-pointer border border-white box-border hover:bg-white hover:text-btnmain transition-colors content-center text-sm whitespace-nowrap h-11 w-11 rounded-full text-center;
+  }
+
   .hero-section {
     @apply bg-blend-multiply bg-hero-image bg-center bg-cover;
   }
