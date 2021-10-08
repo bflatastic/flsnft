@@ -21,7 +21,7 @@ export default function Home() {
       <div className="flex hero-section w-full h-screen bg-gray-500 items-center overflow-hidden">
         <div className="w-full">
           <div className="max-w-6xl mx-auto px-4 lg:px-10">
-            <div class="grid grid-cols-3 mt-8 items-center sm:mx-10 lg:mx-0">
+            <div className="grid grid-cols-3 mt-8 items-center sm:mx-10 lg:mx-0">
               <div className="col-span-3 lg:col-span-2 order-last lg:order-first">
                 <h1 className="hero-text text-5xl text-center md:text-7xl lg:text-8xl lg:text-left text-shadow mt-6 lg:mt-0">
                   Funny Looking Strangers
