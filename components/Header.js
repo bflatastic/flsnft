@@ -29,7 +29,9 @@ function Header() {
 
             {/* Left Nav */}
             <div className="hidden nav-text md:flex items-center space-x-8">
-              <Link href="#">Lore</Link>
+              <Link href="#">
+                <div className="nav-link">Lore</div>
+              </Link>
 
               <Link href="#">
                 <div className="nav-link">The Strangers</div>

@@ -96,8 +96,10 @@ export default function Home() {
           </div>
           <div className="flex items-center justify-center mt-6 lg:mt-0">
             <div>
-              <Link className="text-white underline" href="/somepage">
-                Contract address
+              <Link href="/somepage">
+                <div className="text-white underline cursor-pointer">
+                  Contract address
+                </div>
               </Link>
               <div className="mt-4 space-x-3">
                 <button className="btn-social-alt">
