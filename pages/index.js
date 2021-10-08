@@ -30,7 +30,7 @@ export default function Home() {
                   Minting available on October 10th.
                 </p>
                 <div className="flex w-full items-center justify-center lg:justify-start">
-                  <Link href="/#mint">
+                  <Link href="/#mint" passHref>
                     <button className="btn-main text-xl w-full h-auto px-12 mt-4 sm:w-auto">
                       Mint Now
                     </button>
@@ -96,7 +96,7 @@ export default function Home() {
           </div>
           <div className="flex items-center justify-center mt-6 lg:mt-0">
             <div>
-              <Link href="/somepage">
+              <Link href="/somepage" passHref>
                 <div className="text-white underline cursor-pointer">
                   Contract address
                 </div>

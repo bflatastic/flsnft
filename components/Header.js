@@ -12,7 +12,7 @@ function Header() {
           <div className="flex space-x-8">
             {/* Left Nav */}
             <div className="mr-4">
-              <Link href="/">
+              <Link href="/" passHref>
                 <div className="flex items-center cursor-pointer">
                   <Image
                     className="object-contain"
@@ -29,20 +29,20 @@ function Header() {
 
             {/* Left Nav */}
             <div className="hidden nav-text md:flex items-center space-x-8">
-              <Link href="#">
+              <Link href="#" passHref>
                 <div className="nav-link">Lore</div>
               </Link>
 
-              <Link href="#">
+              <Link href="#" passHref>
                 <div className="nav-link">The Strangers</div>
               </Link>
-              <Link href="#">
+              <Link href="#" passHref>
                 <div className="nav-link">Roadmap</div>
               </Link>
-              <Link href="#">
+              <Link href="#" passHref>
                 <div className="nav-link">FAQ</div>
               </Link>
-              <Link href="#">
+              <Link href="#" passHref>
                 <div className="nav-link">Our Team</div>
               </Link>
             </div>
