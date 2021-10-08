@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 import Header from "../components/Header";
 import FLSGif from "../public/images/FLS.gif";
 import siteLogo from "../public/images/favicon.png";
@@ -29,11 +30,11 @@ export default function Home() {
                   Minting available on October 10th.
                 </p>
                 <div className="flex w-full items-center justify-center lg:justify-start">
-                  <a href="/#mint">
+                  <Link href="/#mint">
                     <button className="btn-main text-xl w-full h-auto px-12 mt-4 sm:w-auto">
                       Mint Now
                     </button>
-                  </a>
+                  </Link>
                 </div>
               </div>
 
@@ -95,9 +96,9 @@ export default function Home() {
           </div>
           <div className="flex items-center justify-center mt-6 lg:mt-0">
             <div>
-              <a className="text-white underline" href="/">
+              <Link className="text-white underline" href="/somepage">
                 Contract address
-              </a>
+              </Link>
               <div className="mt-4 space-x-3">
                 <button className="btn-social-alt">
                   <Discord className="w-4 h-4" />
